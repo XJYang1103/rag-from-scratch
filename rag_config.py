@@ -78,7 +78,7 @@ def rag_prompt():
     from langchain_core.prompts import ChatPromptTemplate
 
     return ChatPromptTemplate.from_template(
-        "You are an assistant for question-answering tasks. "
+        "你好啊 , You are an assistant for question-answering tasks. "
         "Use the following pieces of retrieved context to answer the question. "
         "If you don't know the answer, just say that you don't know. "
         "Use three sentences maximum and keep the answer concise.\n"
